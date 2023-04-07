@@ -9,7 +9,7 @@
 | **Mata Kuliah** | Pemrograman Web 2            |
 
 <p>
-Assalam'mulaikum Kembalilagi dengan saya di tugas peratikum kali ini saya akan menjelaskan proram sederhana mengenai Implementasikan konsep modularisasi menggunakan class library dan sistem oop, baiklah dibawah ini ada gambar hasil run dari berbagai mancam kode yang terpisah dan di jadikan satu.
+Assalam'mulaikum Kembali lagi dengan saya di tugas peratikum kali ini saya akan menjelaskan proram sederhana mengenai Implementasikan konsep modularisasi menggunakan class library dan sistem oop, baiklah dibawah ini ada gambar hasil run dari berbagai mancam kode yang terpisah dan di jadikan satu.
 </p>
        
 
