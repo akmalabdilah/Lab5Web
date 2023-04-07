@@ -25,10 +25,11 @@ Jika kalian penasaran kalian bisa mendownload file rarnya di atas di bagian fold
 </p>
 
 
-1. index.php
+1. index.php<p>
 
 <p>index.php adalah file utama yang menampilkan halaman web. Dalam file ini terdapat struktur HTML dasar, termasuk beberapa elemen PHP yang digunakan untuk menentukan tampilan halaman. Switch case digunakan untuk menampilkan halaman yang berbeda tergantung pada permintaan pengguna. Berikut dibawah ini merupakan, contoh codingnya.
 </p>
+
 ```php
 <!DOCTYPE html>
 <html lang="en">
