@@ -254,8 +254,8 @@ echo "</body></html>";
 6. .htaccess<p>
 <p>
 .htaccess adalah file konfigurasi untuk server web Apache. File ini digunakan untuk mengatur beberapa pengaturan dasar, seperti menentukan halaman utama dan menyembunyikan ekstensi file.
-
 </p>
+
 ```php
 <IfModule mod_rewrite.c>
  RewriteEngine On
@@ -270,6 +270,7 @@ echo "</body></html>";
 <p>
 form.php adalah file yang berisi kelas Form. Kelas ini digunakan untuk membuat form HTML dan memproses data yang diinputkan oleh pengguna.
 </p>
+
 ```php
 <?php
 /**
