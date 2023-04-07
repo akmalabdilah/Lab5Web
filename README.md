@@ -92,6 +92,7 @@ return $config;
 <P>
 database.php adalah file yang berisi kelas Database. Kelas ini digunakan untuk melakukan koneksi ke database, mengeksekusi query, dan mengambil hasil query. Kelas ini menggunakan konfigurasi yang ada di config.php
 </p>
+
 ```php
 <?php
 class Database {
@@ -183,11 +184,9 @@ class Database {
     }
 }
 ?>
-
-
 ```
 
-4. footer.php<p>
+4.footer.php<p>
 <p>
 footer.php adalah file yang berisi bagian akhir dari halaman web. File ini sering digunakan untuk menampilkan tautan ke halaman lain, hak cipta, atau informasi kontak.
 </p>
@@ -208,6 +207,7 @@ footer.php adalah file yang berisi bagian akhir dari halaman web. File ini serin
 <P>
 form-input.php adalah file yang berisi form untuk menginput data. File ini dapat digunakan untuk menambahkan data ke database.
 </p>
+
 ```php
 <?php require('header.php'); ?>
 
@@ -247,8 +247,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 echo "</body></html>";
 
 ?>
-
-
 
 <?php require('footer.php'); ?>
 ```
@@ -311,14 +309,13 @@ $this->jumField ++;
 }
 }
 ?>
-
-
 ```
 
 8. header.php<p>
 <p>
 header.php adalah file yang berisi bagian awal dari halaman web. File ini sering digunakan untuk menampilkan judul, menu navigasi, dan logo.
 </p>
+
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -344,6 +341,7 @@ header.php adalah file yang berisi bagian awal dari halaman web. File ini sering
 <p>
 home.php adalah file yang menampilkan halaman utama aplikasi. File ini dapat berisi informasi umum, tautan ke halaman lain, atau data penting yang diambil dari database
 </p>
+
 ```php
 <?php require('header.php'); ?>
 <div class="content">
@@ -409,10 +407,10 @@ home.php adalah file yang menampilkan halaman utama aplikasi. File ini dapat ber
 ```
 
 10. mobile.php<p>
-
 <p>
 mobile.php adalah file yang menampilkan data mobil dari database. File ini dapat digunakan untuk menambahkan, mengedit, atau menghapus data mobil.
 </p>
+
 ```php
 
 <?php
@@ -491,6 +489,7 @@ echo "Mobil a: warna " . $a->getWarna() . ", merk " . $a->getMerk() . ", harga "
 <p>
 style.css adalah file yang berisi stylesheet untuk mengatur tampilan halaman web. File ini berisi aturan CSS yang digunakan untuk mengubah warna, tata letak, dan tampilan elemen HTML.
 </p>
+
 ```php
 /* Styling untuk body */
 body {
@@ -603,11 +602,10 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  
-  
 ```
 
 <p>
 Jadi bagaimana jika penjelasan saya masih kurang tersusun saya memohon maaf kurang lebi saya ucapkan!
 </p>
+
 <img src="https://user-images.githubusercontent.com/91085882/222731693-24383140-7623-4e7a-a528-6621380b7be8.gif">
